@@ -15,6 +15,7 @@ header {
     color: #F948B2;
 }
 /* shared style end  */
+/* navbar style start  */
 nav {
     display: flex;
     align-items: center;
@@ -58,4 +59,53 @@ nav {
 .img-icon{
     margin-top: -10px;
     margin-bottom: -10px;
+}
+/* navbar style End  */
+/* banner style start  */
+.banner-container{
+    display: flex;
+    height: 700px;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner-img img{
+    width: 420px;
+    height: 700;
+}
+.banner-title-one{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+.banner-title{
+    color: #0B0223;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.banner-description{
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.btn-banner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 14px;
+}
+.btn-red{
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 48px;
+    border: 0;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.btn-sky{
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 48px;
+    border: 0;
+    background: #4EC5F7;
 }
