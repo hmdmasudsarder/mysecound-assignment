@@ -99,6 +99,7 @@ nav {
     color: #534C64;
     font-size: 1.5rem;
     font-weight: 500;
+    padding: 5px 0;
 }
 
 .btn-banner {
@@ -195,4 +196,42 @@ nav {
     color: rgba(143, 51, 153, 0.826);
     width: 160px;
     height: 55px;
+}
+/* footer icon style end  */
+/* footer style start  */
+footer{
+    background-color: #0B0223;
+    height: 600px;
+}
+.footer-icon-img{
+    padding: 120px 530px;
+    display: flex;
+    align-items: center;
+}
+.footer-title{
+    margin-left: 5px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+}
+.sponser-icon{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 980px;
+    margin-left: 200px;
+}
+.sponser-icon-show{
+    color: #FFF;
+    font-weight: 600;
+}
+.icon img{
+    margin: 40px 0 40px 0;
+    margin-left: 260px;
+    background-color: #FFF;
+}
+.footer-last{
+    text-align: center;
+    color: #FFF;
+    padding-top: 20px;
 }
