@@ -164,3 +164,35 @@ nav {
     font-size: 1rem;
     font-weight: 400;
 }
+/* card style end  */
+/* footer icon style start  */
+.icon-section{
+    padding: 100px 0px;
+
+}
+.icon-first{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+}
+.icon-two{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 40px;
+    padding-left: 80px;
+}
+.icon-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 160px;
+    height: 55px;
+    border-radius: 50px;
+}
+.icon-img:hover{
+    border-radius: 50px;
+    border:2px solid rgba(231, 12, 12, 0.885);
+    color: rgba(143, 51, 153, 0.826);
+    width: 160px;
+    height: 55px;
+}
