@@ -166,6 +166,47 @@ nav {
     font-weight: 400;
 }
 /* card style end  */
+/* hero section style start  */
+.hero-container{
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+}
+.hero-description{
+    margin-right: 100px;
+    text-align: center;
+}
+.hero-title{
+    margin-bottom: 20px;
+    font-size: 29px;
+    font-weight: 700;
+}
+.hero-show-title{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-pera{
+    color: #534c646a;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.hero-smaill img{
+    position: relative;
+    top: -200px;
+    left: 275px;
+    border-radius: 8px;
+    border: 10px solid #FFF;
+    width: 218.5px;
+    height: 265.083px;
+}
+.hero-img img{
+    margin-left: 100px;
+    width: 500.833px;
+    height: 450px;
+}
+/* hero section style start  */
 /* footer icon style start  */
 .icon-section{
     padding: 100px 0px;
