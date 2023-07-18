@@ -7,13 +7,15 @@
     margin: 0;
 }
 
-header {
+header,
+main {
     padding: 30px 220px;
 }
 
-.text-primary{
+.text-primary {
     color: #F948B2;
 }
+
 /* shared style end  */
 /* navbar style start  */
 nav {
@@ -28,11 +30,13 @@ nav {
     font-style: normal;
     font-weight: 700;
 }
+
 .nav-rightside>ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
+
 .nav-rightside ul li a {
     text-decoration: none;
     color: #3C354F;
@@ -50,62 +54,113 @@ nav {
     width: 86.041px;
     height: 40px;
 }
-.icon-right{
+
+.icon-right {
     display: flex;
     background-color: rgba(169, 169, 169, 0.307);
     border-radius: 12px;
     padding: 12px;
 }
-.img-icon{
+
+.img-icon {
     margin-top: -10px;
     margin-bottom: -10px;
 }
+
 /* navbar style End  */
 /* banner style start  */
-.banner-container{
+.banner-container {
     display: flex;
     height: 700px;
     align-items: center;
     justify-content: space-around;
 }
-.banner-img img{
+
+.banner-img img {
     width: 420px;
     height: 700;
 }
-.banner-title-one{
+
+.banner-title-one {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
 }
-.banner-title{
+
+.banner-title {
     color: #0B0223;
     font-size: 2rem;
     font-weight: 600;
 }
-.banner-description{
+
+.banner-description {
     color: #534C64;
     font-size: 1.5rem;
     font-weight: 500;
 }
-.btn-banner{
+
+.btn-banner {
     display: flex;
     align-items: center;
     gap: 20px;
     margin-top: 14px;
 }
-.btn-red{
+
+.btn-red {
     color: #fff;
     padding: 15px 20px;
     border-radius: 48px;
     border: 0;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 }
-.btn-sky{
+
+.btn-sky {
     color: #fff;
     padding: 15px 20px;
     border-radius: 48px;
     border: 0;
     background: #4EC5F7;
+}
+
+/* banner style end  */
+/* card style start  */
+.card-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card-title-two {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.card-description{
+    color: #534C64;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.card-img{
+    display: flex;
+    gap: 24px;
+}
+.card-img img{
+    margin-top: 30px;
+    width: 242px;
+    height: 200px;
+}
+.card-inline-description{
+    text-align: center;
+    padding-top: 10px;
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
 }
